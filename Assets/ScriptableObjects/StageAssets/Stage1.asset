@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c7a6bdfa9551de46a9b04cc27af92f5, type: 3}
+  m_Name: Stage1
+  m_EditorClassIdentifier: 
+  autoMoveAsset: {fileID: 11400000, guid: 18f9037f23dc9fa4183e3ef1d520fd23, type: 2}
+  moveOrder:
+    MoveOrder_One: 0
+    MoveOrder_Two: 1
+    MoveOrder_Three: 3
+    MoveOrder_Four: 2
+  fieldManager: {fileID: 4866644647237410894, guid: eaf5e619a28655646832d744e736e608, type: 3}
+  StageInformationAsset: {fileID: 11400000, guid: 42d26a9987a587d40896b6bf3a54786b, type: 2}
+  demonData:
+    demonMoveDelay: 1.1
